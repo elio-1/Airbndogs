@@ -1,24 +1,31 @@
-# README
+# Airbndogs :rocket:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Le pitch
+Implementer des bases de données dans des apps avec Rails
 
-Things you may want to cover:
+-------
 
-* Ruby version
+### Telecharger le repo
 
-* System dependencies
+```
+$ git clone https://github.com/elio75006/Airbndogs.git
+```
 
-* Configuration
+### Installer la gem Faker et Bundle install
 
-* Database creation
+Cette application utilise la gem Faker (https://github.com/faker-ruby/faker) pour générer la seed
+```
+$ gem install faker
+```
+Ensuite 
+```
+$ bundle install
+```
+Créer la base de donnée :
+```
+$ rake db:reset db:seed
+```
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  
